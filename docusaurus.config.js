@@ -54,7 +54,13 @@ const config = {
           feedOptions: {
             type: ['rss'],
             xslt: true,
+            language: 'en',
+            title: "Scot-Survivor's Blog",
+            description: 'Data Science? Workflows? Obsidian? Who knows...',
           },
+
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
 
           // Useful options to enforce blogging best practices
           onInlineTags: 'throw',
