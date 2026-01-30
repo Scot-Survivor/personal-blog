@@ -18,6 +18,15 @@ tech:
   permalink: tech
   description: Technology-focused posts including software, tools, and development.
 
+data-science:
+  label: Data Science
+  permalink: data-science
+  description: Articles on data science concepts, techniques, and applications.
+
+opinion:
+  label: Opinion
+  permalink: opinion
+  description: Opinion pieces on various topics related to technology, society, etc...
 
 productivity:
   label: Productivity
