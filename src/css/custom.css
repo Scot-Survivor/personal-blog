@@ -4,27 +4,62 @@
  * work well for content-centric websites.
  */
 
+/* colorbox: https://colorbox.io/?c0=%7Ep%24s%24%3D11%7Ep%24m%24%3Dok%7Ep%24h%24st%24%3D225%7Ep%24h%24e%24%3D235%7Ep%24h%24c%24%3Deqo%7Ep%24sa%24st%24%3D0.15%7Ep%24sa%24e%24%3D0.7%7Ep%24sa%24r%24%3D1%7Ep%24sa%24c%24%3Deqo%7Ep%24b%24st%24%3D0.88%7Ep%24b%24e%24%3D0.12%7Ep%24b%24c%24%3Deqti%7Ep%24li%24st%24%3D88%7Ep%24li%24e%24%3D20%7Ep%24li%24c%24%3Dl%7Ep%24ch%24st%24%3D0.019%7Ep%24ch%24e%24%3D0.184%7Ep%24ch%24r%24%3D1.3%7Ep%24ch%24c%24%3Dl%7Ep%24oh%24st%24%3D264%7Ep%24oh%24e%24%3D264%7Ep%24oh%24c%24%3Dl%7Eo%24ms%24%3D0%2C1%7Eo%24n%24%3DAuthority+Blue%7Eo%24ro%24%3Dcw&c1=%7Ep%24s%24%3D11%7Ep%24m%24%3Dok%7Ep%24h%24st%24%3D220%7Ep%24h%24e%24%3D220%7Ep%24h%24c%24%3Deqo%7Ep%24sa%24st%24%3D0%7Ep%24sa%24e%24%3D0.12%7Ep%24sa%24r%24%3D1%7Ep%24sa%24c%24%3Deqo%7Ep%24b%24st%24%3D0.95%7Ep%24b%24e%24%3D0.08%7Ep%24b%24c%24%3Dl%7Ep%24li%24st%24%3D96%7Ep%24li%24e%24%3D20%7Ep%24li%24c%24%3Dl%7Ep%24ch%24st%24%3D0.015%7Ep%24ch%24e%24%3D0.040%7Ep%24ch%24r%24%3D1.3%7Ep%24ch%24c%24%3Dl%7Ep%24oh%24st%24%3D262%7Ep%24oh%24e%24%3D262%7Ep%24oh%24c%24%3Dl%7Eo%24ms%24%3D0%2C1%7Eo%24n%24%3DProfessional+Gray%7Eo%24ro%24%3Dcw&ly=g&col=3&ns=df */ 
+
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+
+  --authority-blue-0: #cfd8e8;
+  --authority-blue-0-5: #c1cde4;
+  --authority-blue-1: #b3c2e0;
+  --authority-blue-1-5: #a4b7dc;
+  --authority-blue-2: #96acd8;
+  --authority-blue-3: #7b97cf;
+  --authority-blue-4: #6081c5;
+  --authority-blue-5: #466bbb;
+  --authority-blue-6: #2d54b0;
+  --authority-blue-7: #143ca5;
+  --authority-blue-8: #001f98;
+  --authority-blue-9: #00146f;
+  --authority-blue-10: #000a49;
+
+  --professional-gray-0: #ebf2ff;
+  --professional-gray-0-5: #dee6f4;
+  --professional-gray-1: #d1d9e8;
+  --professional-gray-1-5: #c4cddd;
+  --professional-gray-2: #b7c1d2;
+  --professional-gray-3: #9ea9bb;
+  --professional-gray-4: #8691a5;
+  --professional-gray-5: #6f7b90;
+  --professional-gray-6: #58657b;
+  --professional-gray-7: #435067;
+  --professional-gray-8: #2e3b53;
+  --professional-gray-9: #1a2840;
+  --professional-gray-10: #08152d;
+
+
+  --ifm-color-primary: var(--authority-blue-5);
+  --ifm-color-primary-dark: var(--authority-blue-6);
+  --ifm-color-primary-darker: var(--authority-blue-7);
+  --ifm-color-primary-darkest:var(--authority-blue-8);
+
+  --ifm-color-primary-light: var(--authority-blue-4);
+  --ifm-color-primary-lighter: var(--authority-blue-3);
+  --ifm-color-primary-lightest: var(--authority-blue-2);
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: var(--authority-blue-5);
+  --ifm-color-primary-dark: var(--authority-blue-6);
+  --ifm-color-primary-darker: var(--authority-blue-7);
+  --ifm-color-primary-darkest: var(--authority-blue-8);
+
+  --ifm-color-primary-light: var(--authority-blue-4);
+  --ifm-color-primary-lighter: var(--authority-blue-3);
+  --ifm-color-primary-lightest: var(--authority-blue-2);
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.04);
 }
