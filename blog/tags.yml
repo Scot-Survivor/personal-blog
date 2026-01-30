@@ -1,19 +1,25 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+projects:
+  label: Projects
+  permalink: projects
+  description: Posts about personal and tech projects, ideas, and progress updates.
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+workflow:
+  label: Workflow
+  permalink: workflow
+  description: Insights and tips on productivity, tools, and personal workflows.
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+meta:
+  label: Meta
+  permalink: meta
+  description: Posts about blogging itself, writing principles, and behind-the-scenes content.
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+tech:
+  label: Tech
+  permalink: tech
+  description: Technology-focused posts including software, tools, and development.
+
+
+productivity:
+  label: Productivity
+  permalink: productivity
+  description: Strategies and advice for managing time, habits, and efficiency.
