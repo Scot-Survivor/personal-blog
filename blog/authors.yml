@@ -1,0 +1,35 @@
+yangshun:
+  name: Yangshun Tay
+  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
+  url: https://linkedin.com/in/yangshun
+  image_url: https://github.com/yangshun.png
+  page: true
+  socials:
+    x: yangshunz
+    linkedin: yangshun
+    github: yangshun
+    newsletter: https://www.greatfrontend.com
+
+slorber:
+  name: Sébastien Lorber
+  title: Docusaurus maintainer
+  url: https://sebastienlorber.com
+  image_url: https://github.com/slorber.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/all-sebastien-lorber-articles'
+  socials:
+    x: sebastienlorber
+    linkedin: sebastienlorber
+    github: slorber
+    newsletter: https://thisweekinreact.com
+
+scot-survivor:
+  name: Scot-Survivor
+  title: Writer, Editor
+  url: https://scot-survivor.com
+  image_url: https://avatars.githubusercontent.com/u/40865296?s=400&u=b8751c7535ec806ebb812cfed4ab567c02795ea6&v=4
+  page:
+    permalink: '/all-scot-survivor-articles'
+  socials:
+    github: scot-survivor
