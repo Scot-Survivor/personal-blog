@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
-const title = "Scot_Survivor\'s Personal Blog"
+const title = "Scot_Survivor\'s Blog"
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -85,12 +85,6 @@ const config = {
       navbar: {
         title: title,
         items: [
-          {to: '/', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/Scot-Survivor',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
