@@ -13,6 +13,11 @@ meta:
   permalink: meta
   description: Posts about blogging itself, writing principles, and behind-the-scenes content.
 
+studying:
+  label: studying
+  permalink: studying
+  description: Posts about studying, learning techniques, and academic experiences.
+
 tech:
   label: Tech
   permalink: tech
