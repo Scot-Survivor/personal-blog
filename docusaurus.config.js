@@ -14,7 +14,7 @@ const title = "Scot_Survivor\'s Blog"
 const config = {
   title: title,
   tagline: 'Thoughts, Projects, and Tech',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/No-BG-ScotLogo.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -78,7 +78,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      // image: 'img/docusaurus-social-card.jpg',
+      image: 'img/',
       colorMode: {
         respectPrefersColorScheme: true,
       },
