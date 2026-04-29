@@ -37,3 +37,13 @@ productivity:
   label: Productivity
   permalink: productivity
   description: Strategies and advice for managing time, habits, and efficiency.
+
+worklife:
+  label: Work Life
+  permalink: worklife
+  description: Posts about career, work experiences, and professional development.
+
+personal:
+  label: Personal
+  permalink: personal
+  description: Personal reflections, stories, and experiences outside of work and projects.
