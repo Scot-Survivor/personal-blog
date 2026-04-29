@@ -4,7 +4,14 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
+import rehypeSlug from 'rehype-slug';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import {themes as prismThemes} from 'prism-react-renderer';
+import rehypeExternalLinks from 'rehype-external-links';
+import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math';
+import remarkDirective from 'remark-directive';
+import rehypeKatex from 'rehype-katex';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -19,6 +26,7 @@ const config = {
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    faster: false, // Set to false to disable
   },
 
   // Set the production url of your site here
@@ -51,6 +59,7 @@ const config = {
         blog: {
           routeBasePath: '/',
           showReadingTime: true,
+
           feedOptions: {
             type: ['rss'],
             xslt: true,
@@ -62,10 +71,23 @@ const config = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
 
-          // Useful options to enforce blogging best practices
           onInlineTags: 'throw',
           onInlineAuthors: 'throw',
           onUntruncatedBlogPosts: 'throw',
+          remarkPlugins: [remarkGfm, remarkMath, remarkDirective],
+          rehypePlugins: [
+            rehypeSlug,
+            [rehypeAutolinkHeadings, {
+              behavior: 'append',
+              properties: { className: ['hash-link'] },
+              content: { type: 'text', value: '#' },
+            }],
+            [rehypeExternalLinks, { 
+              target: '_blank', 
+              rel: ['noopener', 'noreferrer'] 
+            }],
+            rehypeKatex,
+          ],
         },
         theme: {
           customCss: './src/css/custom.css',
