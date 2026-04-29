@@ -2,7 +2,8 @@ scot-survivor:
   name: Scot-Survivor
   title: Author & Data Scientist
   url: https://scot-survivor.com
-  image_url: img/ScotLogo.svg
-  permalink: '/all-scot-survivor-articles'
+  image_url: /img/ScotLogo.svg
+  page:
+    permalink: scot-survivor
   socials:
     github: scot-survivor
