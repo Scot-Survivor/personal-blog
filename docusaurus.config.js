@@ -26,7 +26,7 @@ const config = {
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
-    faster: false, // Set to false to disable
+    faster: true, // Set to false to disable
   },
 
   // Set the production url of your site here
@@ -77,11 +77,6 @@ const config = {
           remarkPlugins: [remarkGfm, remarkMath, remarkDirective],
           rehypePlugins: [
             rehypeSlug,
-            [rehypeAutolinkHeadings, {
-              behavior: 'append',
-              properties: { className: ['hash-link'] },
-              content: { type: 'text', value: '#' },
-            }],
             [rehypeExternalLinks, { 
               target: '_blank', 
               rel: ['noopener', 'noreferrer'] 
