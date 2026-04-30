@@ -9,8 +9,8 @@ export default function Footer() {
 
   return (
     <footer className="footer">
-      <div className="container footer__inner"> 
-        <div className='footer__middle'>
+      <div className="footer__inner"> 
+        <div className='footer__left'>
           {themeConfig.footer.copyright}
         </div>
         <div className="footer__right">
