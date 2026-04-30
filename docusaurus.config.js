@@ -105,8 +105,14 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: title,
+        title: 'Scot\'s Blog',
+        logo: {
+          alt: 'Scot-Survivor Logo',
+          src: 'img/No-BG-ScotLogo.svg',
+          href: '/',
+        },
         items: [
+          { to: '/latest', label: 'Latest Post', position: 'left' },
         ],
       },
       footer: {
