@@ -1,9 +1,10 @@
 scot-survivor:
   name: Scot-Survivor
-  title: Author & Data Scientist
+  title: Anti-Fraud Data Scientist
   url: https://scot-survivor.com
   image_url: /img/ScotLogo.svg
   page:
     permalink: scot-survivor
   socials:
     github: scot-survivor
+  description: Data scientist in anti-fraud, CS (AI) student. I write about ML, tooling, and my experiences.
