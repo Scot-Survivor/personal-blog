@@ -112,6 +112,7 @@ const config = {
           href: '/',
         },
         items: [
+          { to: '/portfolio', label: 'Portfolio', position: 'left' },
           { to: '/latest', label: 'Latest Post', position: 'left' },
         ],
       },
